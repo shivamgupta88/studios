@@ -90,26 +90,22 @@ export default function Navbar({ agencyName, navigation, logoUrl }: NavbarProps)
             className="flex items-center space-x-3 group"
             onClick={handleLinkClick}
           >
-            {logoUrl ? (
+            <div className="flex items-center space-x-3">
+              {/* Favicon as Logo */}
               <Image
-                src={logoUrl}
+                src="/favicon-32x32.png"
                 alt={agencyName}
-                width={100}
+                width={32}
                 height={32}
-                className="h-8 w-auto transition-transform group-hover:scale-105"
+                className="transition-transform group-hover:scale-110"
               />
-            ) : (
-              <div className="flex items-center">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg flex items-center justify-center text-white font-bold text-xl">
-                  {agencyName.charAt(0)}
-                </div>
-                <span className={`ml-3 font-bold text-xl transition-colors ${
-                  isScrolled ? 'text-gray-900' : 'text-white'
-                }`}>
-                  {agencyName}
-                </span>
-              </div>
-            )}
+              {/* Agency Name */}
+              <span className={`font-bold text-xl transition-colors ${
+                isScrolled ? 'text-gray-900' : 'text-white'
+              }`}>
+                {agencyName}
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
