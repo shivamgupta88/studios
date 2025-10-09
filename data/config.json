@@ -1,0 +1,22 @@
+{
+  "agencyName": "DevGency",
+  "tagline": "Building digital products that matter",
+  "description": "A full-stack software agency specializing in web, mobile, blockchain, and AI development.",
+  "siteUrl": "https://youragency.com",
+  "metadata": {
+    "defaultTitle": "Your Agency | Web, Mobile & Blockchain Development",
+    "defaultDescription": "Full-stack software agency specializing in web development, mobile apps, MVP building, blockchain solutions, and AI integrations. We turn your ideas into scalable digital products.",
+    "keywords": [
+      "software development agency",
+      "hire developers",
+      "build MVP",
+      "web development services",
+      "mobile app development",
+      "blockchain development",
+      "AI integration services",
+      "full stack development",
+      "startup development agency",
+      "custom software solutions"
+    ]
+  }
+}

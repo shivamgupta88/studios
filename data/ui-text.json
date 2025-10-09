@@ -1,0 +1,66 @@
+{
+  "services": {
+    "badge": "What We Do",
+    "heading": "Complete Digital Solutions",
+    "description": "From concept to launch, we handle every aspect of your digital product with expertise and precision",
+    "ctaPrimary": "Start Your Project",
+    "ctaSecondary": "View Our Work",
+    "learnMore": "Learn more"
+  },
+  "about": {
+    "badge": "Your Trusted Technology Partner",
+    "ctaButton": "Partner With Us"
+  },
+  "projects": {
+    "badge": "Our Work",
+    "heading": "Projects We're Proud Of",
+    "description": "Real results for real clients—from startups to enterprises",
+    "viewAllProjects": "View All Projects",
+    "viewProject": "View Project Details"
+  },
+  "whyChooseUs": {
+    "badge": "Why Choose Us",
+    "heading": "What Makes Us Different",
+    "description": "We don't just build software—we build lasting partnerships"
+  },
+  "techStack": {
+    "badge": "Technology",
+    "heading": "Powered by Modern Tools",
+    "description": "We don't just follow trends—we master technologies that deliver real business value. Our stack is battle-tested across 100+ production apps."
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "heading": "Trusted by Industry Leaders",
+    "description": "Don't take our word for it—hear from the founders and CTOs who've worked with us"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "heading": "Frequently Asked Questions",
+    "description": "Everything you need to know about working with us"
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "heading": "Ready to Build Something Amazing?",
+    "subheading": "Let's discuss your project",
+    "description": "Whether you're a startup founder with an MVP idea, a business looking to scale your platform, or an enterprise needing specialized development—we're here to help. Book a free 30-minute consultation to discuss your project and timeline.",
+    "ctaPrimary": "Schedule Free Consultation",
+    "ctaSecondary": "Send Us an Email"
+  },
+  "pages": {
+    "blog": {
+      "heading": "Blog & Insights",
+      "description": "Stay updated with the latest trends, tutorials, and insights from our team.",
+      "comingSoon": "Coming Soon",
+      "comingSoonMessage": "We're working on bringing you valuable content. Check back soon for articles, tutorials, and industry insights.",
+      "ctaButton": "Get in Touch"
+    },
+    "caseStudies": {
+      "heading": "Case Studies",
+      "description": "In-depth analysis of our projects, challenges overcome, and results achieved.",
+      "comingSoon": "Detailed Case Studies Coming Soon",
+      "comingSoonMessage": "We're preparing comprehensive case studies showcasing our work, methodologies, and the impact we've created for our clients.",
+      "viewWorkButton": "View Our Work",
+      "contactButton": "Contact Us"
+    }
+  }
+}

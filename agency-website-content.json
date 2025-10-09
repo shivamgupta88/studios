@@ -1,0 +1,442 @@
+{
+  "hero": {
+    "headline": "Build Your Vision with Expert Software Solutions",
+    "subheadline": "We're a full-stack software agency specializing in web, mobile, blockchain, and AI development. From MVP to scale, we turn your ideas into powerful digital products.",
+    "ctaPrimary": "Start Your Project",
+    "ctaSecondary": "View Our Work",
+    "bgTheme": "Modern gradient (purple to blue) with subtle geometric patterns, animated particles, and glassmorphism effects"
+  },
+  "about": {
+    "heading": "Who We Are",
+    "subheading": "Your Trusted Technology Partner",
+    "content": "We're a team of seasoned software engineers, designers, and product strategists with over 15 years of combined experience building scalable digital solutions. From startups launching their first MVP to enterprises scaling their platforms, we've helped over 100+ clients transform their ideas into market-ready products.\n\nOur approach is simple: understand your business goals, architect the right solution, and deliver with speed and precision. We don't just write code—we build partnerships and solve real problems with cutting-edge technology.",
+    "experience": "15+ Years Combined Experience",
+    "projects": "100+ Projects Delivered",
+    "clients": "50+ Happy Clients Worldwide"
+  },
+  "services": [
+    {
+      "id": "web-development",
+      "title": "Web Development",
+      "description": "Build blazing-fast, SEO-optimized web applications that scale. We specialize in modern frameworks like Next.js, React, and Vue to create high-performance websites that drive results.",
+      "points": [
+        "Responsive, mobile-first design with pixel-perfect implementation",
+        "Server-side rendering (SSR) and static site generation (SSG) for optimal SEO",
+        "Progressive Web Apps (PWA) with offline capabilities and push notifications"
+      ],
+      "icon": "code"
+    },
+    {
+      "id": "mobile-development",
+      "title": "Mobile Development",
+      "description": "Native and cross-platform mobile apps that deliver exceptional user experiences. We build for iOS and Android using React Native, Flutter, and native technologies.",
+      "points": [
+        "Cross-platform development with 90% code reuse and native performance",
+        "Seamless integration with device features (camera, GPS, biometrics, push)",
+        "App Store optimization and submission assistance included"
+      ],
+      "icon": "mobile"
+    },
+    {
+      "id": "frontend-engineering",
+      "title": "Frontend Engineering",
+      "description": "Craft beautiful, interactive user interfaces with modern JavaScript frameworks. We focus on performance, accessibility, and user experience to keep your users engaged.",
+      "points": [
+        "Component-driven architecture with React, Vue, or Angular",
+        "State management solutions (Redux, Zustand, MobX) for complex applications",
+        "Web accessibility (WCAG 2.1 AA) and performance optimization (Core Web Vitals)"
+      ],
+      "icon": "palette"
+    },
+    {
+      "id": "backend-development",
+      "title": "Backend Development",
+      "description": "Robust, scalable backend systems that power your applications. We build RESTful APIs, GraphQL servers, and microservices using Node.js, Python, and Go.",
+      "points": [
+        "RESTful and GraphQL API design with comprehensive documentation",
+        "Database architecture (PostgreSQL, MongoDB, Redis) optimized for scale",
+        "Authentication, authorization, and security best practices (OAuth, JWT, encryption)"
+      ],
+      "icon": "server"
+    },
+    {
+      "id": "full-stack-projects",
+      "title": "Full Stack Projects",
+      "description": "End-to-end development from database to user interface. We handle every layer of your application, ensuring seamless integration and optimal performance.",
+      "points": [
+        "Complete product development from architecture to deployment",
+        "DevOps setup with CI/CD pipelines for automated testing and deployment",
+        "Cloud infrastructure on AWS, Google Cloud, or Azure with auto-scaling"
+      ],
+      "icon": "layers"
+    },
+    {
+      "id": "mvp-building",
+      "title": "MVP Building",
+      "description": "Launch your startup idea in weeks, not months. We help you validate your concept quickly with a minimum viable product that's ready for real users and investors.",
+      "points": [
+        "Rapid prototyping and iterative development with weekly demos",
+        "Focus on core features that deliver maximum value to early users",
+        "Built-in analytics and feedback tools to measure product-market fit"
+      ],
+      "icon": "rocket"
+    },
+    {
+      "id": "blockchain-solutions",
+      "title": "Blockchain Solutions",
+      "description": "Decentralized applications, smart contracts, and Web3 integrations. We bring your blockchain ideas to life on Ethereum, Solana, Polygon, and other leading platforms.",
+      "points": [
+        "Smart contract development and auditing with Solidity and Rust",
+        "DeFi protocols, NFT marketplaces, and DAO governance systems",
+        "Wallet integration (MetaMask, WalletConnect) and Web3 authentication"
+      ],
+      "icon": "link"
+    },
+    {
+      "id": "ai-ml-integrations",
+      "title": "AI/ML Integrations",
+      "description": "Integrate artificial intelligence into your products with custom ML models, LLM applications, and intelligent automation that gives you a competitive edge.",
+      "points": [
+        "Custom AI models for prediction, classification, and recommendation",
+        "LLM integration (OpenAI, Anthropic, open-source) with RAG and fine-tuning",
+        "Computer vision, NLP, and automated data processing pipelines"
+      ],
+      "icon": "brain"
+    }
+  ],
+  "projects": [
+    {
+      "title": "FinanceFlow - SaaS Dashboard",
+      "category": "Full Stack Development",
+      "summary": "A comprehensive financial analytics platform serving 10,000+ users. Built with real-time data processing, interactive charts, and AI-powered insights for small business owners.",
+      "techUsed": ["Next.js", "Node.js", "PostgreSQL", "TailwindCSS", "Chart.js", "AWS"],
+      "results": "3.2s average page load, 99.9% uptime, 45% increase in user engagement",
+      "link": "/projects/financeflow",
+      "image": "/projects/financeflow.jpg"
+    },
+    {
+      "title": "ShopLocal - Mobile E-commerce",
+      "category": "Mobile Development",
+      "summary": "Cross-platform mobile marketplace connecting local businesses with customers. Features real-time inventory, push notifications, and integrated payment processing.",
+      "techUsed": ["React Native", "Firebase", "Stripe", "Google Maps API", "Redux"],
+      "results": "50k+ downloads, 4.8★ rating, $2M+ in transactions processed",
+      "link": "/projects/shoplocal",
+      "image": "/projects/shoplocal.jpg"
+    },
+    {
+      "title": "NFT Gallery - Web3 Platform",
+      "category": "Blockchain Solutions",
+      "summary": "Decentralized NFT marketplace with social features, creator royalties, and multi-chain support. Enables artists to mint, sell, and showcase digital art.",
+      "techUsed": ["React", "Solidity", "Ethereum", "IPFS", "Hardhat", "MetaMask"],
+      "results": "15k+ NFTs minted, $500k+ trading volume, 3k+ active users",
+      "link": "/projects/nft-gallery",
+      "image": "/projects/nft-gallery.jpg"
+    },
+    {
+      "title": "HealthAI - Telemedicine Platform",
+      "category": "AI/ML Integration",
+      "summary": "AI-powered healthcare platform with symptom analysis, doctor matching, and video consultations. HIPAA-compliant with advanced security.",
+      "techUsed": ["Next.js", "Python", "TensorFlow", "WebRTC", "PostgreSQL", "Docker"],
+      "results": "25k+ consultations, 92% diagnosis accuracy, 4.9★ patient satisfaction",
+      "link": "/projects/healthai",
+      "image": "/projects/healthai.jpg"
+    },
+    {
+      "title": "TaskMaster - Productivity MVP",
+      "category": "MVP Building",
+      "summary": "Launched in 6 weeks: AI-assisted task management app with smart scheduling, team collaboration, and integrations. Secured $500k seed funding.",
+      "techUsed": ["Vue.js", "Node.js", "MongoDB", "OpenAI API", "Vercel"],
+      "results": "MVP to funding in 3 months, 2k+ beta users, 80% weekly retention",
+      "link": "/projects/taskmaster",
+      "image": "/projects/taskmaster.jpg"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "title": "Ship Faster, Scale Smarter",
+      "reason": "Speed meets quality in our delivery process",
+      "detail": "We use agile methodologies and modern DevOps practices to deliver production-ready code in sprints. Our clients typically see their MVP in 6-8 weeks, and full products in 3-4 months. We build with scalability in mind from day one, so your product grows with your success.",
+      "icon": "zap"
+    },
+    {
+      "title": "Transparent Communication",
+      "reason": "You're always in the loop",
+      "detail": "Weekly demos, daily standups, and real-time project tracking through our collaborative tools. No surprises, no hidden costs—just honest updates and clear timelines. We treat your project like our own because we're invested in your success.",
+      "icon": "message-circle"
+    },
+    {
+      "title": "Technical Excellence",
+      "reason": "Senior engineers, not juniors",
+      "detail": "Our team consists of senior developers with 5+ years of experience each. We write clean, maintainable code with 90%+ test coverage, comprehensive documentation, and adherence to industry best practices. Your codebase will be something you're proud to own.",
+      "icon": "award"
+    },
+    {
+      "title": "Full-Service Support",
+      "reason": "From idea to launch and beyond",
+      "detail": "We don't just build and disappear. Our service includes product strategy, UI/UX design, development, deployment, and ongoing maintenance. We offer 30 days of free post-launch support and flexible retainer options for continuous improvements.",
+      "icon": "shield"
+    },
+    {
+      "title": "Proven Track Record",
+      "reason": "Results speak louder than promises",
+      "detail": "100+ successful projects, $50M+ in client revenue generated, and a 98% client satisfaction rate. Our clients range from Y Combinator startups to Fortune 500 companies. We've built products that have raised funding, scaled to millions of users, and won industry awards.",
+      "icon": "trending-up"
+    }
+  ],
+  "techStack": {
+    "frontend": [
+      "React",
+      "Next.js",
+      "Vue.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Redux",
+      "Zustand",
+      "React Query",
+      "Framer Motion",
+      "Three.js"
+    ],
+    "backend": [
+      "Node.js",
+      "Express",
+      "NestJS",
+      "Python",
+      "Django",
+      "FastAPI",
+      "GraphQL",
+      "REST APIs",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Prisma"
+    ],
+    "mobile": [
+      "React Native",
+      "Flutter",
+      "Swift",
+      "Kotlin",
+      "Expo",
+      "Firebase",
+      "Push Notifications",
+      "In-App Purchases",
+      "Biometric Auth"
+    ],
+    "devops": [
+      "AWS",
+      "Google Cloud",
+      "Azure",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "GitHub Actions",
+      "Vercel",
+      "Terraform",
+      "Nginx"
+    ],
+    "ai": [
+      "OpenAI API",
+      "Anthropic Claude",
+      "TensorFlow",
+      "PyTorch",
+      "LangChain",
+      "Hugging Face",
+      "Computer Vision",
+      "Natural Language Processing",
+      "RAG Systems"
+    ],
+    "blockchain": [
+      "Ethereum",
+      "Solidity",
+      "Solana",
+      "Rust",
+      "Hardhat",
+      "Web3.js",
+      "Ethers.js",
+      "Smart Contracts",
+      "IPFS",
+      "MetaMask"
+    ]
+  },
+  "techStackSection": {
+    "badge": "Technology",
+    "heading": "Powered by Modern Tools",
+    "description": "We don't just follow trends—we master technologies that deliver real business value. Our stack is battle-tested across 100+ production apps.",
+    "categories": [
+      {
+        "id": "frontend",
+        "name": "Frontend",
+        "icon": "code",
+        "color": "from-blue-500 to-cyan-500",
+        "description": "Building responsive, performant user interfaces"
+      },
+      {
+        "id": "backend",
+        "name": "Backend",
+        "icon": "server",
+        "color": "from-purple-500 to-pink-500",
+        "description": "Scalable APIs and server infrastructure"
+      },
+      {
+        "id": "mobile",
+        "name": "Mobile",
+        "icon": "smartphone",
+        "color": "from-green-500 to-emerald-500",
+        "description": "Native and cross-platform apps"
+      },
+      {
+        "id": "devops",
+        "name": "DevOps",
+        "icon": "cloud",
+        "color": "from-orange-500 to-amber-500",
+        "description": "Cloud infrastructure and deployment"
+      },
+      {
+        "id": "ai",
+        "name": "AI & ML",
+        "icon": "brain",
+        "color": "from-indigo-500 to-violet-500",
+        "description": "Intelligent systems and automation"
+      },
+      {
+        "id": "blockchain",
+        "name": "Web3",
+        "icon": "link2",
+        "color": "from-pink-500 to-rose-500",
+        "description": "Decentralized applications"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Sarah Chen",
+      "role": "CEO, FinanceFlow",
+      "company": "FinanceFlow SaaS",
+      "message": "They transformed our complex financial data platform idea into a beautiful, intuitive product in just 3 months. The team's expertise in both frontend and backend was evident in every sprint. We've since raised our Series A and scaled to 10,000+ users—couldn't have done it without them.",
+      "avatar": "/testimonials/sarah.jpg",
+      "rating": 5
+    },
+    {
+      "name": "Marcus Rodriguez",
+      "role": "Founder, ShopLocal",
+      "company": "ShopLocal Marketplace",
+      "message": "As a non-technical founder, I was nervous about building a mobile app. The team guided me through every decision, explained trade-offs clearly, and delivered a cross-platform app that looks native on both iOS and Android. We hit 50k downloads in our first 6 months. Best investment I've made.",
+      "avatar": "/testimonials/marcus.jpg",
+      "rating": 5
+    },
+    {
+      "name": "Dr. Emily Watson",
+      "role": "CTO, HealthAI",
+      "company": "HealthAI Platform",
+      "message": "Working with healthcare data requires exceptional attention to security and compliance. This team not only met our HIPAA requirements but exceeded them. Their AI integration for symptom analysis is incredibly accurate, and the telemedicine platform is rock solid. Highly recommend for any health tech project.",
+      "avatar": "/testimonials/emily.jpg",
+      "rating": 5
+    },
+    {
+      "name": "James Park",
+      "role": "Product Lead, TechCorp",
+      "company": "Enterprise SaaS",
+      "message": "We've worked with 5+ agencies over the years, and this team stands out for their proactive communication and technical depth. They identified potential scaling issues before they became problems and built our backend to handle 10x our current load. The code quality is exceptional—clean, tested, and well-documented.",
+      "avatar": "/testimonials/james.jpg",
+      "rating": 5
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What's your typical project timeline?",
+      "answer": "MVPs are delivered in 6-8 weeks, standard web applications in 8-12 weeks, and complex full-stack platforms in 3-6 months. We work in 2-week sprints with demos at the end of each sprint, so you see progress continuously. Timeline depends on project scope, feature complexity, and your feedback turnaround time."
+    },
+    {
+      "question": "Do you provide ongoing support after launch?",
+      "answer": "Absolutely. Every project includes 30 days of free post-launch support for bug fixes and minor adjustments. After that, we offer flexible monthly retainer packages for maintenance, updates, and feature additions. We can also train your in-house team to take over the codebase."
+    },
+    {
+      "question": "Can you help if I only have an idea and no technical specifications?",
+      "answer": "Yes! Many of our clients start with just an idea. We offer product strategy and discovery sessions where we help you define features, prioritize what to build first, create wireframes, and plan the technical architecture. We'll guide you from concept to launch with clear recommendations at every step."
+    },
+    {
+      "question": "What makes you different from other development agencies?",
+      "answer": "Three things: senior engineers (5+ years each, not juniors), transparent communication (weekly demos, daily updates), and full ownership (you get all source code, documentation, and deployment access). We're also product-minded—we don't just code what you ask for; we challenge assumptions and suggest improvements based on our experience shipping 100+ products."
+    },
+    {
+      "question": "Do you sign NDAs and protect intellectual property?",
+      "answer": "Yes, we sign NDAs before any project discussion. All code, designs, and intellectual property belong 100% to you. We use secure development practices, private repositories, and can work within your own GitHub/GitLab organization. Your product is your property, and we respect that completely."
+    }
+  ],
+  "contact": {
+    "heading": "Ready to Build Something Amazing?",
+    "subheading": "Let's discuss your project",
+    "description": "Whether you're a startup founder with an MVP idea, a business looking to scale your platform, or an enterprise needing specialized development—we're here to help. Book a free 30-minute consultation to discuss your project and timeline.",
+    "ctaText": "Schedule Free Consultation",
+    "ctaSecondary": "Send Us an Email",
+    "email": "hello@youragency.com",
+    "benefits": [
+      "Free project scoping consultation",
+      "No obligation, no sales pressure",
+      "Get expert advice on your tech stack",
+      "Discuss timeline and approach"
+    ]
+  },
+  "footer": {
+    "tagline": "Building digital products that matter",
+    "description": "A full-stack software agency specializing in web, mobile, blockchain, and AI development.",
+    "links": {
+      "services": [
+        { "label": "Web Development", "href": "#web-development" },
+        { "label": "Mobile Development", "href": "#mobile-development" },
+        { "label": "Full Stack Projects", "href": "#full-stack-projects" },
+        { "label": "MVP Building", "href": "#mvp-building" },
+        { "label": "Blockchain Solutions", "href": "#blockchain-solutions" },
+        { "label": "AI/ML Integrations", "href": "#ai-ml-integrations" }
+      ],
+      "company": [
+        { "label": "About Us", "href": "#about" },
+        { "label": "Our Work", "href": "#projects" },
+        { "label": "Tech Stack", "href": "#tech-stack" },
+        { "label": "Testimonials", "href": "#testimonials" },
+        { "label": "Contact", "href": "#contact" }
+      ],
+      "resources": [
+        { "label": "FAQ", "href": "#faq" },
+        { "label": "Blog", "href": "/blog" },
+        { "label": "Case Studies", "href": "/case-studies" },
+        { "label": "Privacy Policy", "href": "/privacy" },
+        { "label": "Terms of Service", "href": "/terms" }
+      ]
+    },
+    "socials": [
+      { "platform": "GitHub", "url": "https://github.com/youragency", "icon": "github" },
+      { "platform": "LinkedIn", "url": "https://linkedin.com/company/youragency", "icon": "linkedin" },
+      { "platform": "Twitter", "url": "https://twitter.com/youragency", "icon": "twitter" },
+      { "platform": "Dribbble", "url": "https://dribbble.com/youragency", "icon": "dribbble" }
+    ],
+    "copyright": "© 2025 Your Agency. All rights reserved.",
+    "legalLinks": [
+      { "label": "Privacy Policy", "href": "/privacy" },
+      { "label": "Terms of Service", "href": "/terms" },
+      { "label": "Cookie Policy", "href": "/cookies" }
+    ]
+  },
+  "metadata": {
+    "siteName": "Your Agency - Custom Software Development",
+    "siteUrl": "https://youragency.com",
+    "defaultTitle": "Your Agency | Web, Mobile & Blockchain Development",
+    "defaultDescription": "Full-stack software agency specializing in web development, mobile apps, MVP building, blockchain solutions, and AI integrations. We turn your ideas into scalable digital products.",
+    "keywords": [
+      "software development agency",
+      "hire developers",
+      "build MVP",
+      "web development services",
+      "mobile app development",
+      "blockchain development",
+      "AI integration services",
+      "full stack development",
+      "startup development agency",
+      "custom software solutions",
+      "Next.js development",
+      "React development",
+      "freelance software agency"
+    ],
+    "ogImage": "/og-image.jpg",
+    "twitterHandle": "@youragency"
+  }
+}

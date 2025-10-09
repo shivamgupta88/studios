@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "background": "https://your-s3-bucket.s3.amazonaws.com/hero-background.jpg",
+    "backgroundAlt": "Hero background image"
+  },
+  "projects": {
+    "financeflow": {
+      "thumbnail": "https://your-s3-bucket.s3.amazonaws.com/projects/financeflow-thumb.jpg",
+      "hero": "https://your-s3-bucket.s3.amazonaws.com/projects/financeflow-hero.jpg",
+      "gallery": [
+        "https://your-s3-bucket.s3.amazonaws.com/projects/financeflow-1.jpg",
+        "https://your-s3-bucket.s3.amazonaws.com/projects/financeflow-2.jpg",
+        "https://your-s3-bucket.s3.amazonaws.com/projects/financeflow-3.jpg"
+      ]
+    },
+    "shoplocal": {
+      "thumbnail": "https://your-s3-bucket.s3.amazonaws.com/projects/shoplocal-thumb.jpg",
+      "hero": "https://your-s3-bucket.s3.amazonaws.com/projects/shoplocal-hero.jpg",
+      "gallery": [
+        "https://your-s3-bucket.s3.amazonaws.com/projects/shoplocal-1.jpg",
+        "https://your-s3-bucket.s3.amazonaws.com/projects/shoplocal-2.jpg",
+        "https://your-s3-bucket.s3.amazonaws.com/projects/shoplocal-3.jpg"
+      ]
+    },
+    "nftGallery": {
+      "thumbnail": "https://your-s3-bucket.s3.amazonaws.com/projects/nft-gallery-thumb.jpg",
+      "hero": "https://your-s3-bucket.s3.amazonaws.com/projects/nft-gallery-hero.jpg",
+      "gallery": [
+        "https://your-s3-bucket.s3.amazonaws.com/projects/nft-gallery-1.jpg",
+        "https://your-s3-bucket.s3.amazonaws.com/projects/nft-gallery-2.jpg",
+        "https://your-s3-bucket.s3.amazonaws.com/projects/nft-gallery-3.jpg"
+      ]
+    },
+    "healthai": {
+      "thumbnail": "https://your-s3-bucket.s3.amazonaws.com/projects/healthai-thumb.jpg",
+      "hero": "https://your-s3-bucket.s3.amazonaws.com/projects/healthai-hero.jpg",
+      "gallery": [
+        "https://your-s3-bucket.s3.amazonaws.com/projects/healthai-1.jpg",
+        "https://your-s3-bucket.s3.amazonaws.com/projects/healthai-2.jpg",
+        "https://your-s3-bucket.s3.amazonaws.com/projects/healthai-3.jpg"
+      ]
+    },
+    "taskmaster": {
+      "thumbnail": "https://your-s3-bucket.s3.amazonaws.com/projects/taskmaster-thumb.jpg",
+      "hero": "https://your-s3-bucket.s3.amazonaws.com/projects/taskmaster-hero.jpg",
+      "gallery": [
+        "https://your-s3-bucket.s3.amazonaws.com/projects/taskmaster-1.jpg",
+        "https://your-s3-bucket.s3.amazonaws.com/projects/taskmaster-2.jpg",
+        "https://your-s3-bucket.s3.amazonaws.com/projects/taskmaster-3.jpg"
+      ]
+    }
+  },
+  "testimonials": {
+    "sarah": "https://your-s3-bucket.s3.amazonaws.com/testimonials/sarah-chen.jpg",
+    "marcus": "https://your-s3-bucket.s3.amazonaws.com/testimonials/marcus-rodriguez.jpg",
+    "emily": "https://your-s3-bucket.s3.amazonaws.com/testimonials/emily-watson.jpg",
+    "james": "https://your-s3-bucket.s3.amazonaws.com/testimonials/james-park.jpg"
+  },
+  "team": {
+    "member1": "https://your-s3-bucket.s3.amazonaws.com/team/member-1.jpg",
+    "member2": "https://your-s3-bucket.s3.amazonaws.com/team/member-2.jpg",
+    "member3": "https://your-s3-bucket.s3.amazonaws.com/team/member-3.jpg"
+  },
+  "about": {
+    "hero": "https://your-s3-bucket.s3.amazonaws.com/about/hero.jpg",
+    "officeSpace": "https://your-s3-bucket.s3.amazonaws.com/about/office-space.jpg"
+  },
+  "blog": {
+    "defaultThumbnail": "https://your-s3-bucket.s3.amazonaws.com/blog/default-thumbnail.jpg"
+  },
+  "og": {
+    "default": "https://your-s3-bucket.s3.amazonaws.com/og-images/default.jpg",
+    "home": "https://your-s3-bucket.s3.amazonaws.com/og-images/home.jpg",
+    "projects": "https://your-s3-bucket.s3.amazonaws.com/og-images/projects.jpg"
+  },
+  "favicon": {
+    "ico": "https://your-s3-bucket.s3.amazonaws.com/favicon/favicon.ico",
+    "png16": "https://your-s3-bucket.s3.amazonaws.com/favicon/favicon-16x16.png",
+    "png32": "https://your-s3-bucket.s3.amazonaws.com/favicon/favicon-32x32.png",
+    "appleTouchIcon": "https://your-s3-bucket.s3.amazonaws.com/favicon/apple-touch-icon.png"
+  },
+  "logo": {
+    "light": "https://your-s3-bucket.s3.amazonaws.com/logo/logo-light.svg",
+    "dark": "https://your-s3-bucket.s3.amazonaws.com/logo/logo-dark.svg",
+    "icon": "https://your-s3-bucket.s3.amazonaws.com/logo/icon.svg"
+  }
+}

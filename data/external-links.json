@@ -1,0 +1,68 @@
+{
+  "socialMedia": [
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/youragency",
+      "icon": "github",
+      "label": "Follow us on GitHub"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/company/youragency",
+      "icon": "linkedin",
+      "label": "Connect on LinkedIn"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/youragency",
+      "icon": "twitter",
+      "label": "Follow us on Twitter"
+    },
+    {
+      "platform": "Dribbble",
+      "url": "https://dribbble.com/youragency",
+      "icon": "dribbble",
+      "label": "View our design work"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://instagram.com/youragency",
+      "icon": "instagram",
+      "label": "Follow us on Instagram"
+    },
+    {
+      "platform": "YouTube",
+      "url": "https://youtube.com/@youragency",
+      "icon": "youtube",
+      "label": "Subscribe to our channel"
+    }
+  ],
+  "partnerships": [
+    {
+      "name": "AWS Partner",
+      "url": "https://aws.amazon.com",
+      "logo": "aws-logo"
+    },
+    {
+      "name": "Google Cloud Partner",
+      "url": "https://cloud.google.com",
+      "logo": "gcp-logo"
+    },
+    {
+      "name": "Vercel Partner",
+      "url": "https://vercel.com",
+      "logo": "vercel-logo"
+    }
+  ],
+  "external": {
+    "calendly": "https://calendly.com/youragency/consultation",
+    "medium": "https://medium.com/@youragency",
+    "devTo": "https://dev.to/youragency",
+    "producthunt": "https://producthunt.com/@youragency"
+  },
+  "documentation": {
+    "apiDocs": null,
+    "developerPortal": null,
+    "changelog": null
+  }
+}

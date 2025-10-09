@@ -1,0 +1,172 @@
+{
+  "mainNav": [
+    {
+      "label": "Services",
+      "type": "dropdown",
+      "items": [
+        {
+          "label": "Web Development",
+          "href": "/#services",
+          "description": "Build blazing-fast, SEO-optimized web applications"
+        },
+        {
+          "label": "Mobile Development",
+          "href": "/#services",
+          "description": "Native and cross-platform mobile apps"
+        },
+        {
+          "label": "Full Stack Projects",
+          "href": "/#services",
+          "description": "End-to-end development from database to UI"
+        },
+        {
+          "label": "MVP Building",
+          "href": "/#services",
+          "description": "Launch your startup idea in weeks"
+        },
+        {
+          "label": "Blockchain Solutions",
+          "href": "/#services",
+          "description": "Decentralized apps and smart contracts"
+        },
+        {
+          "label": "AI/ML Integrations",
+          "href": "/#services",
+          "description": "Integrate AI into your products"
+        }
+      ]
+    },
+    {
+      "label": "Company",
+      "type": "dropdown",
+      "items": [
+        {
+          "label": "About Us",
+          "href": "/#about",
+          "description": "Learn about our team and mission"
+        },
+        {
+          "label": "Our Work",
+          "href": "/#projects",
+          "description": "View our portfolio of projects"
+        },
+        {
+          "label": "Tech Stack",
+          "href": "/#tech-stack",
+          "description": "Technologies we work with"
+        },
+        {
+          "label": "Testimonials",
+          "href": "/#testimonials",
+          "description": "What our clients say"
+        },
+        {
+          "label": "Contact",
+          "href": "/#contact",
+          "description": "Get in touch with us"
+        }
+      ]
+    },
+    {
+      "label": "Resources",
+      "type": "dropdown",
+      "items": [
+        {
+          "label": "FAQ",
+          "href": "/#faq",
+          "description": "Frequently asked questions"
+        },
+        {
+          "label": "Blog",
+          "href": "/blog",
+          "description": "Latest articles and insights",
+          "isExternal": false
+        },
+        {
+          "label": "Case Studies",
+          "href": "/case-studies",
+          "description": "In-depth project breakdowns",
+          "isExternal": false
+        },
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy",
+          "description": "Our privacy policy",
+          "isExternal": false
+        },
+        {
+          "label": "Terms of Service",
+          "href": "/terms",
+          "description": "Terms and conditions",
+          "isExternal": false
+        }
+      ]
+    }
+  ],
+  "mobileNav": [
+    {
+      "label": "Home",
+      "href": "/",
+      "icon": "home"
+    },
+    {
+      "label": "Services",
+      "href": "/#services",
+      "icon": "briefcase"
+    },
+    {
+      "label": "Projects",
+      "href": "/#projects",
+      "icon": "folder"
+    },
+    {
+      "label": "About",
+      "href": "/#about",
+      "icon": "info"
+    },
+    {
+      "label": "Contact",
+      "href": "/#contact",
+      "icon": "mail"
+    }
+  ],
+  "footer": {
+    "services": [
+      { "label": "Web Development", "href": "/#services" },
+      { "label": "Mobile Development", "href": "/#services" },
+      { "label": "Full Stack Projects", "href": "/#services" },
+      { "label": "MVP Building", "href": "/#services" },
+      { "label": "Blockchain Solutions", "href": "/#services" },
+      { "label": "AI/ML Integrations", "href": "/#services" }
+    ],
+    "company": [
+      { "label": "About Us", "href": "/#about" },
+      { "label": "Our Work", "href": "/#projects" },
+      { "label": "Tech Stack", "href": "/#tech-stack" },
+      { "label": "Testimonials", "href": "/#testimonials" },
+      { "label": "Contact", "href": "/#contact" }
+    ],
+    "resources": [
+      { "label": "FAQ", "href": "/#faq" },
+      { "label": "Blog", "href": "/blog" },
+      { "label": "Case Studies", "href": "/case-studies" },
+      { "label": "Privacy Policy", "href": "/privacy" },
+      { "label": "Terms of Service", "href": "/terms" }
+    ],
+    "legal": [
+      { "label": "Privacy Policy", "href": "/privacy" },
+      { "label": "Terms of Service", "href": "/terms" },
+      { "label": "Cookie Policy", "href": "/cookies" }
+    ]
+  },
+  "cta": {
+    "primary": {
+      "label": "Start Your Project",
+      "href": "/#contact"
+    },
+    "secondary": {
+      "label": "View Our Work",
+      "href": "/#projects"
+    }
+  }
+}

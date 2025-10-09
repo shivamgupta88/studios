@@ -1,0 +1,36 @@
+{
+  "email": "hello@youragency.com",
+  "phone": "+1 (555) 123-4567",
+  "address": {
+    "street": "123 Tech Street",
+    "city": "San Francisco",
+    "state": "CA",
+    "zip": "94102",
+    "country": "United States"
+  },
+  "businessHours": {
+    "timezone": "PST",
+    "weekdays": "9:00 AM - 6:00 PM",
+    "weekend": "Closed"
+  },
+  "contactForm": {
+    "heading": "Ready to Build Something Amazing?",
+    "subheading": "Let's discuss your project",
+    "description": "Whether you're a startup founder with an MVP idea, a business looking to scale your platform, or an enterprise needing specialized development—we're here to help. Book a free 30-minute consultation to discuss your project and timeline.",
+    "ctaText": "Schedule Free Consultation",
+    "ctaSecondary": "Send Us an Email",
+    "benefits": [
+      "Free project scoping consultation",
+      "No obligation, no sales pressure",
+      "Get expert advice on your tech stack",
+      "Discuss timeline and approach"
+    ]
+  },
+  "calendly": {
+    "enabled": true,
+    "url": "https://calendly.com/youragency/consultation"
+  },
+  "supportEmail": "support@youragency.com",
+  "salesEmail": "sales@youragency.com",
+  "careersEmail": "careers@youragency.com"
+}
