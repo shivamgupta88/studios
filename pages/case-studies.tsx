@@ -40,7 +40,7 @@ export default function CaseStudies({ siteData }: CaseStudiesProps) {
                 </svg>
                 <h2 className="text-2xl font-semibold text-gray-700 mb-3">Detailed Case Studies Coming Soon</h2>
                 <p className="text-lg mb-6">
-                  We're preparing comprehensive case studies showcasing our work, methodologies, and the impact we've created for our clients.
+                  We&apos;re preparing comprehensive case studies showcasing our work, methodologies, and the impact we&apos;ve created for our clients.
                 </p>
                 <p className="text-md text-gray-600">
                   In the meantime, check out our portfolio to see examples of our work.

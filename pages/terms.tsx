@@ -99,7 +99,7 @@ export default function Terms({ siteData }: TermsProps) {
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Warranties and Disclaimers</h2>
                 <p className="text-gray-600 leading-relaxed">
                   We strive to deliver high-quality services, but we cannot guarantee that our services will be error-free or uninterrupted.
-                  Our services are provided "as is" without warranties of any kind, either express or implied. We will make reasonable efforts
+                  Our services are provided &quot;as is&quot; without warranties of any kind, either express or implied. We will make reasonable efforts
                   to fix bugs and issues identified during an agreed warranty period.
                 </p>
               </section>

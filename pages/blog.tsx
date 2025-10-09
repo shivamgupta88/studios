@@ -40,7 +40,7 @@ export default function Blog({ siteData }: BlogProps) {
                 </svg>
                 <h2 className="text-2xl font-semibold text-gray-700 mb-3">Coming Soon</h2>
                 <p className="text-lg">
-                  We're working on bringing you valuable content. Check back soon for articles, tutorials, and industry insights.
+                  We&apos;re working on bringing you valuable content. Check back soon for articles, tutorials, and industry insights.
                 </p>
               </div>
 

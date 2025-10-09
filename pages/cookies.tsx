@@ -106,7 +106,7 @@ export default function Cookies({ siteData }: CookiesProps) {
               <section>
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Managing Cookies</h2>
                 <p className="text-gray-600 leading-relaxed mb-3">
-                  You have the right to control how cookies are used. Here's how you can manage them:
+                  You have the right to control how cookies are used. Here&apos;s how you can manage them:
                 </p>
                 <ul className="list-disc list-inside space-y-2 text-gray-600 ml-4">
                   <li><strong>Browser Settings:</strong> Most web browsers allow you to control cookies through their settings. You can block or delete cookies, but this may affect your experience on our website.</li>
@@ -135,7 +135,7 @@ export default function Cookies({ siteData }: CookiesProps) {
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Updates to This Policy</h2>
                 <p className="text-gray-600 leading-relaxed">
                   We may update this Cookie Policy from time to time to reflect changes in technology, legislation, or our data practices.
-                  We will notify you of any significant changes by updating the "Last updated" date at the top of this policy.
+                  We will notify you of any significant changes by updating the &quot;Last updated&quot; date at the top of this policy.
                 </p>
               </section>
 

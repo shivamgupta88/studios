@@ -127,7 +127,7 @@ export default function Privacy({ siteData }: PrivacyProps) {
                 <h2 className="text-2xl font-semibold text-gray-900 mb-4">Changes to This Policy</h2>
                 <p className="text-gray-600 leading-relaxed">
                   We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy
-                  on this page with an updated "Last updated" date.
+                  on this page with an updated &quot;Last updated&quot; date.
                 </p>
               </section>
 

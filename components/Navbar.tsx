@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X, ChevronDown } from 'lucide-react';
 
 interface NavItem {
@@ -90,9 +91,11 @@ export default function Navbar({ agencyName, navigation, logoUrl }: NavbarProps)
             onClick={handleLinkClick}
           >
             {logoUrl ? (
-              <img
+              <Image
                 src={logoUrl}
                 alt={agencyName}
+                width={100}
+                height={32}
                 className="h-8 w-auto transition-transform group-hover:scale-105"
               />
             ) : (
