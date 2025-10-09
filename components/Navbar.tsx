@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Menu, X, ChevronDown } from 'lucide-react';
 
 interface NavItem {
@@ -91,20 +90,16 @@ export default function Navbar({ agencyName, navigation, logoUrl }: NavbarProps)
             onClick={handleLinkClick}
           >
             <div className="flex items-center space-x-3">
-              {/* Favicon as Logo */}
-              <Image
-                src="/favicon-32x32.png"
-                alt={agencyName}
-                width={32}
-                height={32}
-                className="transition-transform group-hover:scale-110"
-              />
-              {/* Agency Name */}
-              <span className={`font-bold text-xl transition-colors ${
-                isScrolled ? 'text-gray-900' : 'text-white'
-              }`}>
-                {agencyName}
-              </span>
+              {/* Agency TTR Logo */}
+              <div className="flex items-center space-x-2">
+                <div className={`px-3 py-1.5 rounded-lg font-bold text-lg transition-all ${
+                  isScrolled
+                    ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white'
+                    : 'bg-white/10 backdrop-blur-sm text-white border border-white/20'
+                }`}>
+                  Agency TTR
+                </div>
+              </div>
             </div>
           </Link>
 
