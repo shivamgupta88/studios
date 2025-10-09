@@ -1,17 +1,17 @@
 {
-  "email": "hello@youragency.com",
-  "phone": "+1 (555) 123-4567",
+  "email": "agency.texttoreels@gmail.com",
+  "phone": "+91 9289343700",
   "address": {
-    "street": "123 Tech Street",
-    "city": "San Francisco",
-    "state": "CA",
-    "zip": "94102",
-    "country": "United States"
+    "street": "Janakpuri",
+    "city": "New Delhi",
+    "state": "Delhi",
+    "zip": "110044",
+    "country": "India"
   },
   "businessHours": {
-    "timezone": "PST",
-    "weekdays": "9:00 AM - 6:00 PM",
-    "weekend": "Closed"
+    "timezone": "Ist",
+    "weekdays": "11:00 AM - 8:00 PM",
+    "weekend": "Open"
   },
   "contactForm": {
     "heading": "Ready to Build Something Amazing?",
@@ -28,9 +28,9 @@
   },
   "calendly": {
     "enabled": true,
-    "url": "https://calendly.com/youragency/consultation"
+    "url": "https://calendly.com/tsg782/30min"
   },
-  "supportEmail": "support@youragency.com",
-  "salesEmail": "sales@youragency.com",
-  "careersEmail": "careers@youragency.com"
+  "supportEmail": "agency.texttoreels@gmail.com",
+  "salesEmail": "agency.texttoreels@gmail.com",
+  "careersEmail": "agency.texttoreels@gmail.com"
 }

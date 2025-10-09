@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['youragency.com'], // Add your domain here
+    domains: ['agency.texttoreels.in'], // Add your domain here
     formats: ['image/avif', 'image/webp'],
   },
 }

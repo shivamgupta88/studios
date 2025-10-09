@@ -2,37 +2,37 @@
   "socialMedia": [
     {
       "platform": "GitHub",
-      "url": "https://github.com/youragency",
+      "url": "https://github.com/agencytexttoreels",
       "icon": "github",
       "label": "Follow us on GitHub"
     },
     {
       "platform": "LinkedIn",
-      "url": "https://linkedin.com/company/youragency",
+      "url": "https://linkedin.com/",
       "icon": "linkedin",
       "label": "Connect on LinkedIn"
     },
     {
       "platform": "Twitter",
-      "url": "https://twitter.com/youragency",
+      "url": "https://twitter.com",
       "icon": "twitter",
       "label": "Follow us on Twitter"
     },
     {
       "platform": "Dribbble",
-      "url": "https://dribbble.com/youragency",
+      "url": "https://dribbble.com",
       "icon": "dribbble",
       "label": "View our design work"
     },
     {
       "platform": "Instagram",
-      "url": "https://instagram.com/youragency",
+      "url": "https://instagram.com",
       "icon": "instagram",
       "label": "Follow us on Instagram"
     },
     {
       "platform": "YouTube",
-      "url": "https://youtube.com/@youragency",
+      "url": "https://youtube.com/",
       "icon": "youtube",
       "label": "Subscribe to our channel"
     }
@@ -55,10 +55,10 @@
     }
   ],
   "external": {
-    "calendly": "https://calendly.com/youragency/consultation",
-    "medium": "https://medium.com/@youragency",
-    "devTo": "https://dev.to/youragency",
-    "producthunt": "https://producthunt.com/@youragency"
+    "calendly": "https://calendly.com/",
+    "medium": "https://medium.com/",
+    "devTo": "https://dev.to/",
+    "producthunt": "https://producthunt.com/"
   },
   "documentation": {
     "apiDocs": null,

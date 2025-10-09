@@ -368,7 +368,7 @@
     "description": "Whether you're a startup founder with an MVP idea, a business looking to scale your platform, or an enterprise needing specialized development—we're here to help. Book a free 30-minute consultation to discuss your project and timeline.",
     "ctaText": "Schedule Free Consultation",
     "ctaSecondary": "Send Us an Email",
-    "email": "hello@youragency.com",
+    "email": "agency.texttoreels@gmail.com",
     "benefits": [
       "Free project scoping consultation",
       "No obligation, no sales pressure",
@@ -404,12 +404,12 @@
       ]
     },
     "socials": [
-      { "platform": "GitHub", "url": "https://github.com/youragency", "icon": "github" },
-      { "platform": "LinkedIn", "url": "https://linkedin.com/company/youragency", "icon": "linkedin" },
-      { "platform": "Twitter", "url": "https://twitter.com/youragency", "icon": "twitter" },
-      { "platform": "Dribbble", "url": "https://dribbble.com/youragency", "icon": "dribbble" }
+      { "platform": "GitHub", "url": "https://github.com/agencytexttoreels", "icon": "github" },
+      { "platform": "LinkedIn", "url": "https://linkedin.com/", "icon": "linkedin" },
+      { "platform": "Twitter", "url": "https://twitter.com", "icon": "twitter" },
+      { "platform": "Dribbble", "url": "https://dribbble.com", "icon": "dribbble" }
     ],
-    "copyright": "© 2025 Your Agency. All rights reserved.",
+    "copyright": "© 2025 agency.texttoreels.in. All rights reserved.",
     "legalLinks": [
       { "label": "Privacy Policy", "href": "/privacy" },
       { "label": "Terms of Service", "href": "/terms" },
@@ -417,9 +417,9 @@
     ]
   },
   "metadata": {
-    "siteName": "Your Agency - Custom Software Development",
-    "siteUrl": "https://youragency.com",
-    "defaultTitle": "Your Agency | Web, Mobile & Blockchain Development",
+    "siteName": "agency.texttoreels.in - Custom Software Development",
+    "siteUrl": "https://agency.texttoreels.in",
+    "defaultTitle": "agency.texttoreels.in | Web, Mobile & Blockchain Development",
     "defaultDescription": "Full-stack software agency specializing in web development, mobile apps, MVP building, blockchain solutions, and AI integrations. We turn your ideas into scalable digital products.",
     "keywords": [
       "software development agency",
@@ -437,6 +437,6 @@
       "freelance software agency"
     ],
     "ogImage": "/og-image.jpg",
-    "twitterHandle": "@youragency"
+    "twitterHandle": "@agencytexttoreels"
   }
 }
