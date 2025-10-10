@@ -2,12 +2,19 @@ import { GetServerSideProps } from 'next';
 import blogsData from '../data/blogs.json';
 import caseStudiesData from '../data/case-studies-data.json';
 
+interface SitemapUrl {
+  url: string;
+  priority: string;
+  changefreq: string;
+  lastmod?: string;
+}
+
 function generateSiteMap() {
   const baseUrl = 'https://agency.texttoreels.in';
   const currentDate = new Date().toISOString();
 
   // Static pages
-  const pages = [
+  const pages: SitemapUrl[] = [
     { url: '', priority: '1.0', changefreq: 'weekly' }, // Homepage
     { url: '/blog', priority: '0.8', changefreq: 'weekly' },
     { url: '/case-studies', priority: '0.8', changefreq: 'monthly' },
