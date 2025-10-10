@@ -1,9 +1,16 @@
 import Link from 'next/link';
+import Head from 'next/head';
 import { Home, ArrowLeft } from 'lucide-react';
 
 export default function Custom404() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 flex items-center justify-center px-4">
+    <>
+      <Head>
+        <title>404 - Page Not Found | agency.texttoreels.in</title>
+        <meta name="description" content="The page you're looking for doesn't exist. Return to agency.texttoreels.in homepage or explore our software development services." />
+        <meta name="robots" content="noindex, follow" />
+      </Head>
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 flex items-center justify-center px-4">
       <div className="max-w-2xl w-full text-center">
         {/* 404 Number */}
         <div className="mb-8">
@@ -51,5 +58,6 @@ export default function Custom404() {
         </div>
       </div>
     </div>
+    </>
   );
 }

@@ -1,3 +1,7 @@
 # https://www.robotstxt.org/robotstxt.html
+# Allow all search engine bots to crawl the site
 User-agent: *
 Allow: /
+
+# Sitemap location
+Sitemap: https://agency.texttoreels.in/sitemap.xml

@@ -14,9 +14,9 @@ export default function Terms({ siteData }: TermsProps) {
 
   return (
     <Layout
-      title={`Terms of Service | ${config.agencyName}`}
-      description="Read our terms of service to understand the rules and guidelines for using our services."
-      keywords={[...config.metadata.keywords, 'terms of service', 'terms and conditions', 'legal']}
+      title="Terms of Service | agency.texttoreels.in - Legal Terms & Conditions"
+      description="Read our terms of service covering software development agreements, client responsibilities, payment terms, intellectual property rights, and service warranties for agency.texttoreels.in."
+      keywords={[...config.metadata.keywords, 'terms of service', 'terms and conditions', 'legal', 'service agreement', 'contract terms']}
     >
       <Navbar
         agencyName={config.agencyName}

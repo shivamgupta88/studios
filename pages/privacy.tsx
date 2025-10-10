@@ -14,9 +14,9 @@ export default function Privacy({ siteData }: PrivacyProps) {
 
   return (
     <Layout
-      title={`Privacy Policy | ${config.agencyName}`}
-      description="Read our privacy policy to understand how we collect, use, and protect your data."
-      keywords={[...config.metadata.keywords, 'privacy policy', 'data protection', 'gdpr']}
+      title="Privacy Policy | agency.texttoreels.in - Data Protection & Privacy"
+      description="Learn how agency.texttoreels.in collects, uses, and protects your personal information. Read our comprehensive privacy policy covering data security, GDPR compliance, and your rights."
+      keywords={[...config.metadata.keywords, 'privacy policy', 'data protection', 'gdpr', 'data privacy', 'personal information']}
     >
       <Navbar
         agencyName={config.agencyName}

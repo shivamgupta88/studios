@@ -1,9 +1,16 @@
 import Link from 'next/link';
+import Head from 'next/head';
 import { Home, RefreshCw } from 'lucide-react';
 
 export default function Custom500() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-50 via-orange-50 to-yellow-50 flex items-center justify-center px-4">
+    <>
+      <Head>
+        <title>500 - Server Error | agency.texttoreels.in</title>
+        <meta name="description" content="We're experiencing technical difficulties. Our team is working to fix the issue. Please try again later." />
+        <meta name="robots" content="noindex, follow" />
+      </Head>
+      <div className="min-h-screen bg-gradient-to-br from-red-50 via-orange-50 to-yellow-50 flex items-center justify-center px-4">
       <div className="max-w-2xl w-full text-center">
         {/* 500 Number */}
         <div className="mb-8">
@@ -17,7 +24,7 @@ export default function Custom500() {
           Server Error
         </h2>
         <p className="text-xl text-gray-600 mb-8">
-          Something went wrong on our end. We're working to fix it. Please try again later.
+          Something went wrong on our end. We&apos;re working to fix it. Please try again later.
         </p>
 
         {/* Action Buttons */}
@@ -51,5 +58,6 @@ export default function Custom500() {
         </div>
       </div>
     </div>
+    </>
   );
 }

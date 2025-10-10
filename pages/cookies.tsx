@@ -14,9 +14,9 @@ export default function Cookies({ siteData }: CookiesProps) {
 
   return (
     <Layout
-      title={`Cookie Policy | ${config.agencyName}`}
-      description="Learn about how we use cookies and similar technologies on our website."
-      keywords={[...config.metadata.keywords, 'cookie policy', 'cookies', 'tracking']}
+      title="Cookie Policy | agency.texttoreels.in - How We Use Cookies"
+      description="Understand how agency.texttoreels.in uses cookies and similar tracking technologies. Learn about cookie types, managing preferences, and browser settings for better privacy control."
+      keywords={[...config.metadata.keywords, 'cookie policy', 'cookies', 'tracking', 'browser cookies', 'cookie consent']}
     >
       <Navbar
         agencyName={config.agencyName}
