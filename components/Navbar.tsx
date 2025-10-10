@@ -90,11 +90,7 @@ export default function Navbar({ agencyName, navigation, logoUrl }: NavbarProps)
             onClick={handleLinkClick}
           >
             <div className="flex items-center space-x-2">
-              <span className={`font-bold text-xl transition-colors ${
-                isScrolled
-                  ? 'text-gray-900'
-                  : 'text-white'
-              }`}>
+              <span className="font-bold text-xl text-gray-900">
                 Agency TTR
               </span>
             </div>
