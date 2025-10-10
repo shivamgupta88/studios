@@ -1,6 +1,6 @@
 import { GetServerSideProps } from 'next';
 import blogsData from '../data/blogs.json';
-import caseStudiesData from '../data/case-studies-data.json';
+import projectsData from '../data/projects.json';
 
 interface SitemapUrl {
   url: string;
@@ -31,12 +31,12 @@ function generateSiteMap() {
     lastmod: blog.publishDate
   }));
 
-  // Add case studies to sitemap
-  const caseStudies = caseStudiesData.caseStudies.map(cs => ({
-    url: `/case-studies/${cs.slug}`,
+  // Add case studies (projects) to sitemap
+  const caseStudies = projectsData.projects.map(project => ({
+    url: `/case-studies/${project.slug}`,
     priority: '0.7',
     changefreq: 'monthly',
-    lastmod: cs.publishDate
+    lastmod: project.publishDate
   }));
 
   // Combine all URLs

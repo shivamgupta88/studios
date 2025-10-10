@@ -4,7 +4,7 @@ import Layout from '../../components/Layout';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/sections/Footer';
 import { loadAllConfig } from '../../lib/loadConfig';
-import caseStudiesData from '../../data/case-studies-data.json';
+import projectsData from '../../data/projects.json';
 import { ArrowLeft, Users, Clock, TrendingUp, CheckCircle, Quote } from 'lucide-react';
 
 interface CaseStudy {
@@ -19,7 +19,7 @@ interface CaseStudy {
   challenge: string;
   solution: string;
   technologiesUsed: string[];
-  results: string[];
+  resultsList: string[];
   testimonial: {
     quote: string;
     author: string;
@@ -171,7 +171,7 @@ export default function CaseStudyDetail({ siteData, caseStudy, relatedCaseStudie
                 <section className="bg-gradient-to-br from-green-50 to-blue-50 rounded-2xl shadow-lg p-8">
                   <h2 className="text-3xl font-bold mb-6 text-gray-900">Results & Impact</h2>
                   <div className="space-y-4">
-                    {caseStudy.results.map((result, index) => (
+                    {caseStudy.resultsList?.map((result, index) => (
                       <div key={index} className="flex items-start gap-3">
                         <CheckCircle className="w-6 h-6 text-green-600 flex-shrink-0 mt-1" />
                         <p className="text-gray-700 text-lg">{result}</p>
@@ -275,8 +275,8 @@ export default function CaseStudyDetail({ siteData, caseStudy, relatedCaseStudie
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = caseStudiesData.caseStudies.map((cs) => ({
-    params: { slug: cs.slug },
+  const paths = projectsData.projects.map((project) => ({
+    params: { slug: project.slug },
   }));
 
   return {
@@ -287,7 +287,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const siteData = loadAllConfig();
-  const caseStudy = caseStudiesData.caseStudies.find((cs) => cs.slug === params?.slug);
+  const caseStudy = projectsData.projects.find((p) => p.slug === params?.slug);
 
   if (!caseStudy) {
     return {
@@ -295,9 +295,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     };
   }
 
-  // Get related case studies (same industry, excluding current)
-  const relatedCaseStudies = caseStudiesData.caseStudies
-    .filter((cs) => cs.industry === caseStudy.industry && cs.slug !== caseStudy.slug)
+  // Get related case studies (same category, excluding current)
+  const relatedCaseStudies = projectsData.projects
+    .filter((p) => p.category === caseStudy.category && p.slug !== caseStudy.slug)
     .slice(0, 2);
 
   return {

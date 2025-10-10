@@ -4,7 +4,7 @@ import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import Footer from '../components/sections/Footer';
 import { loadAllConfig } from '../lib/loadConfig';
-import caseStudiesData from '../data/case-studies-data.json';
+import projectsData from '../data/projects.json';
 import { ArrowRight, Clock, Users, TrendingUp } from 'lucide-react';
 
 interface CaseStudy {
@@ -211,7 +211,7 @@ export const getServerSideProps: GetServerSideProps = async () => {
   return {
     props: {
       siteData,
-      caseStudies: caseStudiesData.caseStudies,
+      caseStudies: projectsData.projects,
     },
   };
 };
