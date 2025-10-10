@@ -111,7 +111,7 @@
       "summary": "A comprehensive financial analytics platform serving 10,000+ users. Built with real-time data processing, interactive charts, and AI-powered insights for small business owners.",
       "techUsed": ["Next.js", "Node.js", "PostgreSQL", "TailwindCSS", "Chart.js", "AWS"],
       "results": "3.2s average page load, 99.9% uptime, 45% increase in user engagement",
-      "link": "/projects/financeflow",
+      "link": "/case-studies/financeflow",
       "image": "/projects/financeflow.jpg"
     },
     {
@@ -120,7 +120,7 @@
       "summary": "Cross-platform mobile marketplace connecting local businesses with customers. Features real-time inventory, push notifications, and integrated payment processing.",
       "techUsed": ["React Native", "Firebase", "Stripe", "Google Maps API", "Redux"],
       "results": "50k+ downloads, 4.8★ rating, $2M+ in transactions processed",
-      "link": "/projects/shoplocal",
+      "link": "/case-studies/shoplocal",
       "image": "/projects/shoplocal.jpg"
     },
     {
@@ -129,7 +129,7 @@
       "summary": "Decentralized NFT marketplace with social features, creator royalties, and multi-chain support. Enables artists to mint, sell, and showcase digital art.",
       "techUsed": ["React", "Solidity", "Ethereum", "IPFS", "Hardhat", "MetaMask"],
       "results": "15k+ NFTs minted, $500k+ trading volume, 3k+ active users",
-      "link": "/projects/nft-gallery",
+      "link": "/case-studies/nft-gallery",
       "image": "/projects/nft-gallery.jpg"
     },
     {
@@ -138,7 +138,7 @@
       "summary": "AI-powered healthcare platform with symptom analysis, doctor matching, and video consultations. HIPAA-compliant with advanced security.",
       "techUsed": ["Next.js", "Python", "TensorFlow", "WebRTC", "PostgreSQL", "Docker"],
       "results": "25k+ consultations, 92% diagnosis accuracy, 4.9★ patient satisfaction",
-      "link": "/projects/healthai",
+      "link": "/case-studies/healthai",
       "image": "/projects/healthai.jpg"
     },
     {
@@ -147,7 +147,7 @@
       "summary": "Launched in 6 weeks: AI-assisted task management app with smart scheduling, team collaboration, and integrations. Secured $500k seed funding.",
       "techUsed": ["Vue.js", "Node.js", "MongoDB", "OpenAI API", "Vercel"],
       "results": "MVP to funding in 3 months, 2k+ beta users, 80% weekly retention",
-      "link": "/projects/taskmaster",
+      "link": "/case-studies/taskmaster",
       "image": "/projects/taskmaster.jpg"
     }
   ],
