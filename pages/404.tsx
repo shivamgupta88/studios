@@ -7,7 +7,7 @@ export default function Custom404() {
     <>
       <Head>
         <title>404 - Page Not Found | agency.texttoreels.in</title>
-        <meta name="description" content="The page you're looking for doesn't exist. Return to agency.texttoreels.in homepage or explore our software development services." />
+        <meta name="description" content="The page you are looking for does not exist. Return to agency.texttoreels.in homepage or explore our software development services." />
         <meta name="robots" content="noindex, follow" />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 flex items-center justify-center px-4">
@@ -24,7 +24,7 @@ export default function Custom404() {
           Page Not Found
         </h2>
         <p className="text-xl text-gray-600 mb-8">
-          Oops! The page you're looking for doesn't exist or has been moved.
+          Oops! The page you&apos;re looking for doesn&apos;t exist or has been moved.
         </p>
 
         {/* Action Buttons */}
