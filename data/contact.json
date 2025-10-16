@@ -1,6 +1,6 @@
 {
   "email": "agency.texttoreels@gmail.com",
-  "phone": "+91 9289343700",
+  "phone": "+91 9289 343700",
   "address": {
     "street": "Janakpuri",
     "city": "New Delhi",
@@ -10,7 +10,7 @@
   },
   "businessHours": {
     "timezone": "Ist",
-    "weekdays": "11:00 AM - 8:00 PM",
+    "weekdays": "11:00 AM - 11:00 PM",
     "weekend": "Open"
   },
   "contactForm": {
@@ -30,7 +30,7 @@
     "enabled": true,
     "url": "https://calendly.com/tsg782/30min"
   },
-  "supportEmail": "agency.texttoreels@gmail.com",
+  "supportEmail": "agency@texttoreels.in",
   "salesEmail": "agency.texttoreels@gmail.com",
-  "careersEmail": "agency.texttoreels@gmail.com"
+  "careersEmail": "agency@texttoreels.in"
 }
